@@ -29,5 +29,5 @@ For Each objObject In objService.ExecQuery("SELECT * FROM Win32_SystemSlot")
 	info= info& "slot number " & objObject.Number 'номер слота
 	info= info& "slot id " & objObject.SlotDesignation 'идентификатор слота
 Next
-
+NEXT MORE NEXT TO ME <3
 WScript.Echo info
